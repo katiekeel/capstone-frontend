@@ -1,35 +1,43 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-const ReactHighcharts = require('react-highcharts'); // Expects that Highcharts was loaded in the code.
+const ReactHighcharts = require('react-highcharts');
 
 const config = {
   chart: {
-    type: 'column'
+    type: 'column',
+    style: {
+        fontFamily: 'Yantramanav',
+        fontSize: '20px'
+    }
   },
   title: {
-    text: "Tanks!"
+    text: "Water Tank Prototype Sensors",
+    style: {
+      fontSize: '25px'
+    }
   },
   xAxis: {
-    categories: ['Tank 1', 'Tank 2']
+    categories: ['Tank 1', 'Tank 2'],
+    labels: {
+                style: {
+                    fontSize:'20px'
+                }
+            }
   },
   yAxis: {
     title: {
-        text: 'Level'
-    }
+        text: 'Level',
+        fontSize: '15px'
+    },
+    labels: {
+                style: {
+                    fontSize:'20px'
+                }
+            }
   },
   colors: [
-           '#283044',
-           '#216869',
-           '#70798C',
-           '#7FEFBD',
-           '#000000',
-           '#C2BBF0',
-           '#3590F3',
-           '#8FB8ED',
-           '#B8336A',
-           '#E0BAD7',
-           '#5F634F',
-           '#DF2935'
+           '#C36F09',
+           '#65743A'
          ],
 
    plotOptions: {
@@ -37,7 +45,9 @@ const config = {
            colorByPoint: true
        }
    },
-  series: [{name: 'Level', data: [3, 5]}]
+  series: [{name: '% Full',
+  showInLegend: false,               
+  data: [3, 5]}]
 };
 
 class Chart extends React.Component {

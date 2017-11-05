@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:400,700');
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-#nav-bar, #basic-nav-dropdown {
-  background-color: #42dcf4;
+.navbar-brand, #nav-bar, #basic-nav-dropdown {
+  font-family: 'Yantramanav';
+  font-size: 20px !important;
+  background-color: #640d14;
+  color: #FFFFFF !important;
+}
+
+#nav-bar a {
+  color: #FFFFFF;
 }
 
 ul.nav li a, ul.nav li a:visited {
