@@ -20,9 +20,9 @@ I am not a front end developer, and I would love any ideas or help on how to use
 
 To download and work on this repo:
 
-`$ git clone git@github.com:katiekeel/capstone-frontend.git your-directory`
-`$ cd your-directory`
-`$ npm install`
-`$ npm start`
+`$ git clone git@github.com:katiekeel/capstone-frontend.git your-directory`  
+`$ cd your-directory`  
+`$ npm install`  
+`$ npm start`  
 
 You may be prompted to allow Node to start your server on an alternate port; respond with `Y`.
