@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 const ReactHighcharts = require('react-highcharts');
 
+
 const config = {
   chart: {
     type: 'column',
@@ -45,9 +46,10 @@ const config = {
            colorByPoint: true
        }
    },
-  series: [{name: '% Full',
-  showInLegend: false,               
-  data: [3, 5]}]
+  series: [{
+    showInLegend: false,
+    data: [3, 5]
+    }]
 };
 
 class Chart extends React.Component {
