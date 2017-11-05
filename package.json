@@ -7,6 +7,7 @@
     "bootstrap": "^3.3.7",
     "create-react-class": "^15.6.2",
     "fetch": "^1.1.0",
+    "jquery": "^3.2.1",
     "react": "^16.0.0",
     "react-actioncable-provider": "^1.0.0",
     "react-bootstrap": "^0.31.5",
