@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { ActionCableProvider } from 'react-actioncable-provider'
+import './Navbar'
 
-ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 
 export default function Container (props) {

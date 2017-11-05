@@ -4,9 +4,11 @@
   "private": true,
   "dependencies": {
     "axios": "^0.17.0",
+    "bootstrap": "^3.3.7",
     "create-react-class": "^15.6.2",
     "react": "^16.0.0",
     "react-actioncable-provider": "^1.0.0",
+    "react-bootstrap": "^0.31.5",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.16"
   },
