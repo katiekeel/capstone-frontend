@@ -12,7 +12,17 @@ This frontend was built with React, through Facebook's `create-react-app`. It co
 
 The ultimate goal is to have real-time UI updates using a websocket, as the backend is currently broadcasting the API changes over Rails' new ActionCable capability.
 
+For more information on how this app was created, head over to [create-react-app](https://github.com/facebookincubator/create-react-app/blob/master/README.md) to view their documentation.
+
 ## Contributing
 
 I am not a front end developer, and I would love any ideas or help on how to use React correctly, or just using Node in general. Please feel free to submit issues and PRs if you notice any improvements that could be made to this setup.
 
+To download and work on this repo:
+
+`$ git clone git@github.com:katiekeel/capstone-frontend.git your-directory`
+`$ cd your-directory`
+`$ npm install`
+`$ npm start`
+
+You may be prompted to allow Node to start your server on an alternate port; respond with `Y`.
