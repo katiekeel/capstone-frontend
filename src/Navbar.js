@@ -11,7 +11,7 @@ const navbarInstance = (
     </Navbar.Header>
     <Nav pullRight>
       <NavDropdown eventKey={3} title="Subscriptions" id="basic-nav-dropdown">
-        <MenuItem eventKey={3.1}>The Actual Tanks</MenuItem>
+        <MenuItem eventKey={3.1}><a href="#">The Actual Tanks</a></MenuItem>
         <MenuItem eventKey={3.2}>Mysterious Weather Station</MenuItem>
         <MenuItem eventKey={3.3}>Enrique's Garage</MenuItem>
         <MenuItem eventKey={3.4}>"Turn The Lights Off" Dad</MenuItem>

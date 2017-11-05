@@ -5,6 +5,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { ActionCableProvider } from 'react-actioncable-provider'
 import './Navbar'
+import './TankChart'
 
 registerServiceWorker();
 
